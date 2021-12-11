@@ -1,0 +1,77 @@
+/* ======= Button ======= */
+/* button1 */
+   .btn_makeoffer {
+    background-image: linear-gradient(90deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    margin-top: -10px;
+    padding: 5px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 1px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    float:right;
+    cursor: pointer;
+   }
+   
+   .btn_makeoffer:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+   }
+   
+   .btn_makeoffer:active {
+    transform: scale(0.95);
+   }
+   
+/* //button1 */
+
+/* button2 */
+
+.loginbtn, .sellbtn{
+   text-transform: uppercase;
+   transition: 0.5s;
+   font-weight: 700;
+   font-size: 15px;
+   padding: 3px 14px;
+   color: #000;
+   cursor: pointer;
+   border: none;
+}
+.loginbtn {
+background: #fff;
+box-shadow:  -5px -5px 85px #cccccc,
+             5px 5px 85px #ffffff;
+}
+.sellbtn {
+   background: #F09819;
+}
+.loginbtn:hover, .sellbtn:hover{
+   background-position: right center;
+   background: #F09819;
+   color: #fff;
+}
+.loginbtn:active, .sellbtn:active{
+   transform: scale(0.95);
+}
+.loginbtn:focus, .sellbtn:focus{
+   border: none;
+}
+/* //button2 */
+/* ======= //Button ======= */
+
+/* ======= Textarea ======= */
+
+.purple-border textarea {
+   border: 1px solid #ba68c8;
+}
+.purple-border .form-control:focus {
+   border: 1px solid #ba68c8;
+   box-shadow: 0 0 0 0.2rem rgba(186, 104, 200, .25);
+}
+
+/* ======= //Textarea ======= */
